@@ -8,15 +8,15 @@ def match_calculator(num1,num2,operation):
 			return print (f"The result is {num1*num2}")
 		case "/":
 			if num2==0:
-				return "Cannot divide by zero,please choose a nother number greather than zero"
+				return "Cannot divide by zero."
 				num2_2=int(input("Please enter another number"))
 				match_calculator(num1,num2_2,operation)
 			else:
 				return print (f"The result is {num1/num2}")
 
 
-num1=int(input("Please enter a number"))
-num2=int(input("Please enter another number"))
-operation=input("Please select the type of operation(+,-,*,/)")
+num1=int(input("Enter the first number:"))
+num2=int(input("Enter the second number"))
+operation=input("Please select the type of operation(+, -, *, /):")
 match_calculator(num1,num2,operation)
 
