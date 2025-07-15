@@ -17,6 +17,6 @@ def match_calculator(num1,num2,operation):
 
 num1=int(input("Enter the first number:"))
 num2=int(input("Enter the second number:"))
-operation=input("Please select the type of operation(+, -, *, /):")
+operation=input("Choose the operation ( +, -, *, /):")
 match_calculator(num1,num2,operation)
 
