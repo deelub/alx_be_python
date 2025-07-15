@@ -23,8 +23,8 @@ def task_priority(task,priority,time_bound):
 				"seek to do it in your freetime ")
 
 
-task=input("Enter your task:m")
-priority=input("Enter a priority level(high /mediumn/low").lower()
-time_bound=input("Is is time-bound? (yes / np)").lower()
+task=input("Enter your task:")
+priority=input("Priority (high/medium/low)").lower()
+time_bound=input("Is is time-bound? (yes/no)").lower()
 
 
